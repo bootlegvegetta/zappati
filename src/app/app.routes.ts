@@ -27,12 +27,4 @@ export const routes: Routes = [
     redirectTo: 'nucleo',
     pathMatch: 'full'
   },
-  {
-    path: 'encabezado',
-    loadComponent: () => import('./shared/encabezado/encabezado.page').then( m => m.EncabezadoPage)
-  },
-  {
-    path: 'galeria',
-    loadComponent: () => import('./nucleo/galeria/galeria.page').then( m => m.GaleriaPage)
-  },
 ];
