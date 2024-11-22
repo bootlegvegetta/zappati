@@ -1,0 +1,7 @@
+{
+  "name": "zappati",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
